@@ -1,0 +1,50 @@
+﻿#matlab
+اکتاو رو میتونید از این لینک دانلود و نصب کنید:
+https://www.gnu.org/software/octave/download.html
+
+#anaconda
+#python
+درباره ی نصب و کار کردن با آناکوندا میتونید به این لینک ها مراجعه کنید:
+نصب:
+https://www.anaconda.com/download/#windows
+داکیومنتیشن:
+http://docs.anaconda.com/anaconda/user-guide/getting-started/#open-nav-lin
+
+#matlab
+اینجا هم میتونید آنلاین کد متلب بزنید:
+http://www.compileonline.com/execute_matlab_online.php
+
+#python
+این لینک توتریال پایتون عه، منحصرا برای کار با داده. میتونه براتون مفید باشه. کار با pandas  و numpy رو هم گفته:
+https://www.tutorialspoint.com/python/python_data_science.htm
+
+#matlab
+توتریال متلب:
+https://www.tutorialspoint.com/matlab/
+
+این لینک درمورد کلاسیفایر naive Bayes هم میتونه برای پیاده سازی این تمرین، کمکتون کنه:
+https://www.geeksforgeeks.org/naive-bayes-classifiers/
+
+#python
+میتونید توی هر محیطی که راحت هستید(pycharm,یا غیره...) کدتون رو بزنین و خروجی بگیرین. 
+فقط اگه میخوایید از محیط های دیگه ای استفاده کنید، باید برید توی ستینگ IDE(محیط کد زدنی تون)،interpreter ش رو ست کنید روی ورژن آناکوندایی که نصب کردید.
+اگر هم میخوایید از خود پایتون سیستم تون استفاده کنید و آناکوندا نصب نکنید، میشه. ولی باید pip نصب کنید که یه کم سخته. اما اگه خواستید برید سراغش، این لینک راهنمای خوبیه:
+https://www.makeuseof.com/tag/install-pip-for-python/
+
+#python
+اینم سایت رسمی پایتون واسه دانلود ریلیز های مختلفش برای سیستم های مختلف.(البته معمولا دیفالت روی سیستم عامل یه نسخه از پایتون نصب هست)
+فقط حواستون باشه که اگه آناکوندا نصب کردین دیگه نیازی به این نیست؛ در واقع آناکوندا نسخه ی کاملتری از پایتون در اختیارتون قرار میده که دیگه لازم نیست pip رو برید نصب کنید روش تا بتونید از pandas  و کتابخونه های دیگه استفاده کنید.
+منتها پیرامون پست قبل، گفتم اگر کسی نمیخواد  یا نمیتونه آناکوندا نصب کنه هم بدونه چیکار باید بکنه.
+اینو دانلود کنین بعد طبق لینک قبل برین pip نصب کنین و در ادامه میتونین بقیه لایبرری ها رو نصب و استفاده کنین.
+https://www.python.org/downloads/
+
+#python
+طریقه ی نصب لایبرری ها از طریق کامند(با مثال):
+#anaconda
+conda install pandas
+#pip
+pip install pandas
+
+#python
+کد پایتون برای کانورت کردن دیتا ست ها که دستور متلبش سرکلاس گفته شد:
+https://gist.github.com/Nixonite/bc2f69b0c4430211bcad
