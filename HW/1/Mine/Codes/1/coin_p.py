@@ -9,7 +9,8 @@ def simulate(flip_number, h_probability):
         if random.random() < h_probability:
             count += 1
         point_list.append(count)
-
+        if i == 50 or i == 100 or i == 500 or i == 1000:
+            print('Number of heads in round ' + str(i) + ' = ' + str(count))
 
     pyplot.title('H Probability = ' + str(h_probability))
     print('Number of heads at the End: ' + str(count))
