@@ -13,6 +13,8 @@ def simulate(flip_number, h_probability):
             print('Number of heads in round ' + str(i) + ' = ' + str(count))
 
     pyplot.title('H Probability = ' + str(h_probability))
+    pyplot.xlabel('Flip Number')
+    pyplot.ylabel('Probability')
     print('Number of heads in round 1000 = ' + str(count))
 
     pyplot.plot(range(0, flip_number), point_list)
