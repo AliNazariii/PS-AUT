@@ -63,6 +63,7 @@ def calculate_probabilities(data_train, data_test):
             result[person] = 1
         else:
             result[person] = -1
+        print("person " + str(person + 1) + " is " + str(int(result[person])))
 
     return result
 
@@ -81,5 +82,6 @@ for i in range(400):
     else:
         fault += 1
 
-print(correct, fault)
+print(str(correct) + " items are classified True and " + str(fault) + "items are classified False")
+print("So our accuracy is " + str(float(correct) / 400.0))
 
